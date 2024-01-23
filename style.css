@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+/* font-family: 'Libre Franklin', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 1.25rem;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+h1 {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin: 0;
+    margin-top: 4rem;
+    letter-spacing: 0.02rem;
+}
+h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 1.75rem;
+    color: hsl(209, 33%, 12%);
+}
+.container {
+    margin: 8.5rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 39.375rem;
+}
+.logo {
+    height: 1.6rem;
+}
+.header-span {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+    font-size: 2.2rem;
+    letter-spacing: 0.02rem;
+}
+.email-input {
+    border-color: hsl(223, 100%, 88%);
+    border-radius: 50px;
+    border-style: solid;
+    padding: 0.9em 8em 0.9em 2.5em;
+    margin-top: 3rem;
+}
+input:focus {
+    border-color: hsl(223, 100%, 88%);
+}
+.submit-button {
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    padding: 1em 0;
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: 0 0.5625rem 1.0625rem hsl(223, 100%, 88%);
+}
+.dashboard {
+    width: 100%;
+    margin-top: 7rem;
+}
+.fa-brands {
+    padding: 1.1rem;
+}
+.copyright {
+    color: hsl(0, 0%, 59%);
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+::placeholder {
+    color: hsl(223, 100%, 88%);
+}

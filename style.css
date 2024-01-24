@@ -86,6 +86,7 @@ input:focus {
     font-weight: 600;
     font-size: 1.2rem;
     box-shadow: 0 0.5625rem 1.0625rem hsl(223, 100%, 88%);
+    cursor: pointer;
 }
 .dashboard {
     width: 100%;
@@ -93,6 +94,7 @@ input:focus {
 }
 .fa-brands {
     padding: 1.1rem;
+    cursor: pointer;
 }
 .copyright {
     color: hsl(0, 0%, 59%);
@@ -102,4 +104,62 @@ input:focus {
 }
 ::placeholder {
     color: hsl(223, 100%, 88%);
+}
+
+@media (min-width: 1440px) {
+    h1 {
+        margin-top: 2.5rem;
+        font-size: 2.3rem;
+        letter-spacing: 0.1rem;
+    }
+    h3 {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    form {
+        display: flex;
+        align-items: center;
+        margin-top: 1.8rem;
+        gap: 1rem;
+        width: 100%;
+    }
+    .container {
+        margin: 4.5rem 3rem 0 3rem;
+        max-width: 32rem;
+    }
+
+    .logo {
+        height: 1.3rem;
+    }
+    .input-field {
+        width: 66%;
+        display: inline;
+    }
+    .button-field {
+        width: 32%;
+    }
+    .email-input {
+        width: 100%;
+        padding: 1.1em 8em 1.1em 2em;
+        margin: 0;
+        font-size: 0.8rem;
+        border: solid 1px hsl(223, 100%, 88%);
+    }
+    .submit-button {
+        width: 100%;
+        margin: 0;
+        font-size: 0.8rem;
+        padding: 1.1em 0;
+    }
+    .dashboard {
+        margin-top: 4.4rem;
+    }
+    footer {
+        margin-top: 3.5rem;
+    }
+    .copyright {
+        font-size: 0.6rem;
+        margin-top: 2em;
+        margin-bottom: 5em;
+    }
 }
